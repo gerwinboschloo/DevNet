@@ -8,8 +8,8 @@ root = tree.getroot()
 #print(ET.tostring(root, encoding='utf8').decode('utf8'))
 
 root.tag
-#for movie in root.findall("./genre/decade/movie/[year='1985']"):
-#    print(movie.attrib)
+for movie in root.findall("./genre/decade/movie/[year='1985']"):
+  print(movie.attrib)
 
 for movie in root.iter('movie'):
     print(movie.attrib)
