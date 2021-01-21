@@ -11,7 +11,7 @@
                 Covenant before the Nazis.'
                 </description>
             </movie>
-               <movie favorite="True" title="THE KARATE KID">
+               <movie favorite="false" title="THE KARATE KID">
                <format multiple="Yes">DVD,Online</format>
                <year>1984</year>
                <rating>PG</rating>
